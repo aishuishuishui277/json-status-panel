@@ -5,7 +5,8 @@
   "optional": [],
   "js": "index.js",
   "css": "style.css",
-  "author": "aishuishuishui277",
-  "version": "0.1.0", "homePage":"json-status-panel", "https://github.com/aishuishuishui277/json-status-panel",
+  "author": "aishuishui277",
+  "version": "0.1.1",
+  "homePage": "https://github.com/aishuishui277/json-status-panel",
   "auto_update": true
 }
