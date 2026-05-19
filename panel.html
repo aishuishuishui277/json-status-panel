@@ -1,0 +1,25 @@
+<div id="json-status-panel" class="jsp-panel">
+  <div class="jsp-title">JSON状态栏测试器</div>
+
+  <textarea id="jsp-input" class="jsp-input" spellcheck="false">{
+  "正文": "这是正文测试。她站在吧台旁，灯光落在杯沿上。",
+  "动作": "她微微偏头，指尖轻敲玻璃杯。",
+  "对白": "“你终于来了。”",
+  "心里话": "她其实已经等了很久，只是不愿意承认。",
+  "状态_身材": "根据角色卡和世界书描写仪态、姿态、服装与距离感。",
+  "状态_性格": "遵守世界书中的具体性格设定。",
+  "状态_情绪": "表面平静，内心松动。",
+  "状态_关系": "对{{user}}保持试探和关注。"
+}</textarea>
+
+  <div class="jsp-buttons">
+    <button id="jsp-load-last-btn" class="menu_button">读取并渲染最后AI回复</button>
+    <button id="jsp-render-btn" class="menu_button">渲染测试</button>
+    <button id="jsp-copy-prompt-btn" class="menu_button">复制JSON格式提示</button>
+    <button id="jsp-clear-btn" class="menu_button">清空结果</button>
+  </div>
+
+  <div id="jsp-mode" class="jsp-mode"></div>
+  <div id="jsp-error" class="jsp-error"></div>
+  <div id="jsp-output" class="jsp-output"></div>
+</div>

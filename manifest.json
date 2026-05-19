@@ -1,0 +1,11 @@
+{
+  "display_name": "JSON状态栏测试器",
+  "loading_order": 50,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "aishuishuishui277",
+  "version": "0.1.0", "homePage":"json-status-panel", "https://github.com/aishuishuishui277/json-status-panel",
+  "auto_update": true
+}
